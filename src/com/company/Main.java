@@ -17,5 +17,12 @@ public  class  Main {
         } else {
             System.out.println("Почитай книгу ! ");
         }
+        System.out.println(info());
+    }
+
+    public static String info(){
+        String name = "Ademi ";
+        int age = 15;
+        return name + age;
     }
 }
